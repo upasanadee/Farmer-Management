@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+/* Form Container */
+.form-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    width: 350px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Inputs & Select */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+input::placeholder, select {
+    color: white;
+}
+
+select {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Buttons */
+button {
+    background: #ff8c00;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff6500;
+}
+
+/* Links */
+a {
+    color: #ff8c00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard Styling */
+.dashboard-container {
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+}
